@@ -8,8 +8,11 @@
   position: relative;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
+}
+
+.leaflet-container {
+  background: transparent;
 }
 
 .leaflet-map {
