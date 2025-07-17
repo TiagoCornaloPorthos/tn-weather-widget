@@ -383,6 +383,500 @@ export const provincesWeatherData = [
         ]
       }
     ]
+  },
+  {
+    city: {
+      id: 123466,
+      label: "La Rioja",
+      province: "La Rioja",
+      lat: -29.4131,
+      long: -66.8558
+    },
+    days: [
+      {
+        date: 1731250800,
+        description: "soleado",
+        icon: "01d",
+        currentIcon: "01d",
+        temperature: 32,
+        min: 20,
+        max: 35,
+        rainProbability: "5 %",
+        wind: {
+          value: "15 km/h",
+          direction: "Oeste"
+        },
+        feelsLike: 34,
+        pressure: 1018,
+        humidity: "30 %",
+        visibility: "10 km",
+        hourly: [
+          {
+            date: 1731250800,
+            temperature: 32,
+            humidity: "30 %",
+            description: "soleado",
+            rainProbability: "5 %"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    city: {
+      id: 123467,
+      label: "San Juan",
+      province: "San Juan",
+      lat: -31.5375,
+      long: -68.5364
+    },
+    days: [
+      {
+        date: 1731250800,
+        description: "despejado",
+        icon: "01d",
+        currentIcon: "01d",
+        temperature: 29,
+        min: 18,
+        max: 33,
+        rainProbability: "10 %",
+        wind: {
+          value: "18 km/h",
+          direction: "Suroeste"
+        },
+        feelsLike: 31,
+        pressure: 1020,
+        humidity: "35 %",
+        visibility: "10 km",
+        hourly: [
+          {
+            date: 1731250800,
+            temperature: 29,
+            humidity: "35 %",
+            description: "despejado",
+            rainProbability: "10 %"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    city: {
+      id: 123468,
+      label: "San Luis",
+      province: "San Luis",
+      lat: -33.2950,
+      long: -66.3356
+    },
+    days: [
+      {
+        date: 1731250800,
+        description: "parcialmente nublado",
+        icon: "02d",
+        currentIcon: "02d",
+        temperature: 26,
+        min: 16,
+        max: 29,
+        rainProbability: "20 %",
+        wind: {
+          value: "16 km/h",
+          direction: "Este"
+        },
+        feelsLike: 27,
+        pressure: 1019,
+        humidity: "45 %",
+        visibility: "9 km",
+        hourly: [
+          {
+            date: 1731250800,
+            temperature: 26,
+            humidity: "45 %",
+            description: "parcialmente nublado",
+            rainProbability: "20 %"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    city: {
+      id: 123469,
+      label: "Catamarca",
+      province: "Catamarca",
+      lat: -28.4696,
+      long: -65.7852
+    },
+    days: [
+      {
+        date: 1731250800,
+        description: "soleado",
+        icon: "01d",
+        currentIcon: "01d",
+        temperature: 30,
+        min: 19,
+        max: 34,
+        rainProbability: "8 %",
+        wind: {
+          value: "20 km/h",
+          direction: "Norte"
+        },
+        feelsLike: 32,
+        pressure: 1017,
+        humidity: "40 %",
+        visibility: "10 km",
+        hourly: [
+          {
+            date: 1731250800,
+            temperature: 30,
+            humidity: "40 %",
+            description: "soleado",
+            rainProbability: "8 %"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    city: {
+      id: 123470,
+      label: "Santiago del Estero",
+      province: "Santiago del Estero",
+      lat: -27.7834,
+      long: -64.2642
+    },
+    days: [
+      {
+        date: 1731250800,
+        description: "caluroso",
+        icon: "01d",
+        currentIcon: "01d",
+        temperature: 35,
+        min: 22,
+        max: 38,
+        rainProbability: "12 %",
+        wind: {
+          value: "14 km/h",
+          direction: "Noreste"
+        },
+        feelsLike: 39,
+        pressure: 1014,
+        humidity: "55 %",
+        visibility: "8 km",
+        hourly: [
+          {
+            date: 1731250800,
+            temperature: 35,
+            humidity: "55 %",
+            description: "caluroso",
+            rainProbability: "12 %"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    city: {
+      id: 123471,
+      label: "Formosa",
+      province: "Formosa",
+      lat: -26.1775,
+      long: -58.1781
+    },
+    days: [
+      {
+        date: 1731250800,
+        description: "húmedo",
+        icon: "04d",
+        currentIcon: "04d",
+        temperature: 31,
+        min: 23,
+        max: 34,
+        rainProbability: "45 %",
+        wind: {
+          value: "19 km/h",
+          direction: "Norte"
+        },
+        feelsLike: 36,
+        pressure: 1011,
+        humidity: "78 %",
+        visibility: "7 km",
+        hourly: [
+          {
+            date: 1731250800,
+            temperature: 31,
+            humidity: "78 %",
+            description: "húmedo",
+            rainProbability: "45 %"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    city: {
+      id: 123472,
+      label: "Chaco",
+      province: "Chaco",
+      lat: -27.4511,
+      long: -58.9867
+    },
+    days: [
+      {
+        date: 1731250800,
+        description: "nublado",
+        icon: "04d",
+        currentIcon: "04d",
+        temperature: 28,
+        min: 20,
+        max: 32,
+        rainProbability: "40 %",
+        wind: {
+          value: "17 km/h",
+          direction: "Noreste"
+        },
+        feelsLike: 31,
+        pressure: 1013,
+        humidity: "70 %",
+        visibility: "8 km",
+        hourly: [
+          {
+            date: 1731250800,
+            temperature: 28,
+            humidity: "70 %",
+            description: "nublado",
+            rainProbability: "40 %"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    city: {
+      id: 123473,
+      label: "Corrientes",
+      province: "Corrientes",
+      lat: -27.4692,
+      long: -58.8306
+    },
+    days: [
+      {
+        date: 1731250800,
+        description: "lluvioso",
+        icon: "10d",
+        currentIcon: "10d",
+        temperature: 25,
+        min: 19,
+        max: 29,
+        rainProbability: "75 %",
+        wind: {
+          value: "22 km/h",
+          direction: "Este"
+        },
+        feelsLike: 28,
+        pressure: 1012,
+        humidity: "82 %",
+        visibility: "6 km",
+        hourly: [
+          {
+            date: 1731250800,
+            temperature: 25,
+            humidity: "82 %",
+            description: "lluvioso",
+            rainProbability: "75 %"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    city: {
+      id: 123474,
+      label: "Entre Ríos",
+      province: "Entre Ríos",
+      lat: -32.0588,
+      long: -59.2014
+    },
+    days: [
+      {
+        date: 1731250800,
+        description: "templado",
+        icon: "02d",
+        currentIcon: "02d",
+        temperature: 24,
+        min: 17,
+        max: 27,
+        rainProbability: "30 %",
+        wind: {
+          value: "16 km/h",
+          direction: "Sureste"
+        },
+        feelsLike: 25,
+        pressure: 1016,
+        humidity: "60 %",
+        visibility: "9 km",
+        hourly: [
+          {
+            date: 1731250800,
+            temperature: 24,
+            humidity: "60 %",
+            description: "templado",
+            rainProbability: "30 %"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    city: {
+      id: 123475,
+      label: "La Pampa",
+      province: "La Pampa",
+      lat: -36.6167,
+      long: -64.2833
+    },
+    days: [
+      {
+        date: 1731250800,
+        description: "ventoso",
+        icon: "50d",
+        currentIcon: "50d",
+        temperature: 20,
+        min: 12,
+        max: 24,
+        rainProbability: "15 %",
+        wind: {
+          value: "32 km/h",
+          direction: "Oeste"
+        },
+        feelsLike: 18,
+        pressure: 1021,
+        humidity: "45 %",
+        visibility: "8 km",
+        hourly: [
+          {
+            date: 1731250800,
+            temperature: 20,
+            humidity: "45 %",
+            description: "ventoso",
+            rainProbability: "15 %"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    city: {
+      id: 123476,
+      label: "Río Negro",
+      province: "Río Negro",
+      lat: -40.8135,
+      long: -62.9967
+    },
+    days: [
+      {
+        date: 1731250800,
+        description: "fresco",
+        icon: "03d",
+        currentIcon: "03d",
+        temperature: 15,
+        min: 8,
+        max: 19,
+        rainProbability: "25 %",
+        wind: {
+          value: "28 km/h",
+          direction: "Suroeste"
+        },
+        feelsLike: 13,
+        pressure: 1023,
+        humidity: "55 %",
+        visibility: "9 km",
+        hourly: [
+          {
+            date: 1731250800,
+            temperature: 15,
+            humidity: "55 %",
+            description: "fresco",
+            rainProbability: "25 %"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    city: {
+      id: 123477,
+      label: "Chubut",
+      province: "Chubut",
+      lat: -43.2500,
+      long: -65.3000
+    },
+    days: [
+      {
+        date: 1731250800,
+        description: "frío",
+        icon: "04d",
+        currentIcon: "04d",
+        temperature: 12,
+        min: 5,
+        max: 16,
+        rainProbability: "35 %",
+        wind: {
+          value: "38 km/h",
+          direction: "Oeste"
+        },
+        feelsLike: 8,
+        pressure: 1025,
+        humidity: "60 %",
+        visibility: "7 km",
+        hourly: [
+          {
+            date: 1731250800,
+            temperature: 12,
+            humidity: "60 %",
+            description: "frío",
+            rainProbability: "35 %"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    city: {
+      id: 123478,
+      label: "Santa Cruz",
+      province: "Santa Cruz",
+      lat: -48.8000,
+      long: -69.9667
+    },
+    days: [
+      {
+        date: 1731250800,
+        description: "muy frío",
+        icon: "13d",
+        currentIcon: "13d",
+        temperature: 8,
+        min: 1,
+        max: 12,
+        rainProbability: "60 %",
+        wind: {
+          value: "42 km/h",
+          direction: "Oeste"
+        },
+        feelsLike: 3,
+        pressure: 1028,
+        humidity: "75 %",
+        visibility: "5 km",
+        hourly: [
+          {
+            date: 1731250800,
+            temperature: 8,
+            humidity: "75 %",
+            description: "muy frío",
+            rainProbability: "60 %"
+          }
+        ]
+      }
+    ]
   }
 ];
 

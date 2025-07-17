@@ -1,33 +1,6 @@
-/* Estilos para el componente WeatherMap */
 .weather-map-container {
   padding: 20px;
   max-width: 1200px;
-  margin: 0 auto;
-  font-family: 'Arial', sans-serif;
-}
-
-.weather-map-header {
-  text-align: center;
-  margin-bottom: 30px;
-  padding: 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-}
-
-.weather-map-header h1 {
-  margin: 0 0 10px 0;
-  font-size: 2.5rem;
-  font-weight: 700;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.weather-map-header p {
-  margin: 0;
-  font-size: 1.1rem;
-  opacity: 0.9;
-  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -43,10 +16,8 @@
   z-index: 1;
 }
 
-/* Estilos para los popups del mapa */
 .popup-content {
   text-align: center;
-  font-family: 'Arial', sans-serif;
 }
 
 .popup-content h3 {
@@ -65,75 +36,9 @@
   font-size: 1.1rem;
 }
 
-/* Leyenda de temperaturas */
-.temperature-legend {
-  background: white;
-  border-radius: 15px;
-  padding: 25px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid #e0e0e0;
-}
-
-.temperature-legend h3 {
-  margin: 0 0 20px 0;
-  color: #333;
-  font-size: 1.3rem;
-  font-weight: 600;
-  text-align: center;
-}
-
-.legend-items {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
-}
-
-.legend-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px;
-  background: #f8f9fa;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-}
-
-.legend-item:hover {
-  background: #e9ecef;
-  transform: translateY(-2px);
-}
-
-.legend-color {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  flex-shrink: 0;
-}
-
-.legend-item span:last-child {
-  color: #555;
-  font-size: 0.9rem;
-  font-weight: 500;
-}
-
-/* Estilos responsivos */
 @media (max-width: 768px) {
   .weather-map-container {
     padding: 10px;
-  }
-
-  .weather-map-header {
-    padding: 15px;
-    margin-bottom: 20px;
-  }
-
-  .weather-map-header h1 {
-    font-size: 2rem;
-  }
-
-  .weather-map-header p {
-    font-size: 1rem;
   }
 
   .map-wrapper {
@@ -143,46 +48,12 @@
   .leaflet-map {
     height: 400px !important;
   }
-
-  .temperature-legend {
-    padding: 20px;
-  }
-
-  .legend-items {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-
-  .legend-item {
-    padding: 8px;
-  }
 }
 
 @media (max-width: 480px) {
-  .weather-map-header h1 {
-    font-size: 1.8rem;
-  }
-
-  .weather-map-header p {
-    font-size: 0.9rem;
-  }
-
   .leaflet-map {
     height: 350px !important;
   }
-
-  .temperature-legend h3 {
-    font-size: 1.1rem;
-  }
-
-  .legend-item span:last-child {
-    font-size: 0.8rem;
-  }
-}
-
-/* Personalización de controles de Leaflet */
-.leaflet-control-container {
-  font-family: 'Arial', sans-serif;
 }
 
 .leaflet-popup-content-wrapper {
@@ -194,16 +65,17 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Animaciones para los marcadores */
 @keyframes markerPulse {
   0% {
     transform: scale(1);
     opacity: 1;
   }
+
   50% {
     transform: scale(1.1);
     opacity: 0.8;
   }
+
   100% {
     transform: scale(1);
     opacity: 1;
@@ -219,22 +91,7 @@
   z-index: 1000;
 }
 
-/* Estilo para el loading del mapa */
-.leaflet-container {
-  background: #f8f9fa;
-}
 
-/* Mejoras en la accesibilidad */
-.legend-item:focus {
-  outline: 2px solid #4A90E2;
-  outline-offset: 2px;
-}
-
-.weather-map-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-}
-
-/* Estilos para pantallas de alta resolución */
 @media (min-resolution: 192dpi) {
   .leaflet-marker-icon {
     image-rendering: -webkit-optimize-contrast;
